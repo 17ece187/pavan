@@ -1,3 +1,3 @@
 exports.helloWorld = async (req, res) => {
-console.log("Hello, World rahul2 !");
+console.log("Hello, World !");
 };
