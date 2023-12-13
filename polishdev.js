@@ -62,7 +62,7 @@ exports.helloWorld = async (req, res) => {
 //                    } catch (error) { console.error('Error sending email:', error);
 //                     res.status(500).send('Error sending email');
 //                      }
-
+console.log("From polish.js file");
 let session = req.body.sessionInfo.session;
 session = session.split("/");
 let last_session = session[session.length - 1];
